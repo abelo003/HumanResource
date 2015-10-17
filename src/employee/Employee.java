@@ -20,7 +20,14 @@ public class Employee {
     public String hireDate;
     
     public void getDetails(){
-        
+        System.out.println("Id: " + id);
+        System.out.println("First Name: " + firstName);
+        System.out.println("Last Name: " + lastName);
+        System.out.println("Age: " + age);
+        System.out.println("Email: " + email);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Salary: " + salary);
+        System.out.println("Hire Date: " + hireDate);
     }
     
 }
