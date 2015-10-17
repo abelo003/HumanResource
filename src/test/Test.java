@@ -9,9 +9,9 @@ import java.util.Date;
 
 /**
  *
- * @author Aula-X
+ * @author Abel
  */
-public class EmployeeTest {
+public class Test {
     public static void main(String[] args) {
         Employee employee = new Employee();
         employee.getDetails();
