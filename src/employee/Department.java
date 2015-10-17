@@ -16,7 +16,7 @@ public class Department {
     
     public void getDetails(){
         System.out.println("Name: " + name);
-        manager.getDetails();
+//        manager.getDetails();
         location.getDetails();
     }
     

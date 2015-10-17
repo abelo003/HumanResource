@@ -32,10 +32,12 @@ public class Employee {
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Salary: " + salary);
         System.out.println("Hire Date: " + hireDate);
-        System.out.println("Department from " + firstName );
-        department.getDetails();
-        System.out.println("Job from " + firstName);
-        job.getDetails();
+//        System.out.println("Department from " + firstName );
+//        department.getDetails();
+//        System.out.println("Job from " + firstName);
+//        job.getDetails();
+        System.out.println("Department: " + department);
+        System.out.println("Job: " + job);
     }
     
 }

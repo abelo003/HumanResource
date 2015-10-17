@@ -37,6 +37,7 @@ public class TestEmployee {
         lArgentina.streetAddress = "12-98 Victoria Street";
         lArgentina.postalCode = 2901;
         lArgentina.stateProvince = "New South Wales";
+        lArgentina.country = "Argentina";
         
         
         Department dAdministration = new Department();
@@ -58,9 +59,19 @@ public class TestEmployee {
         employee.job = jAdministrationManager;
         employee.department = dAdministration;
         
+        System.out.println("--------------------------------------");
         System.out.println("\nEmployee details:");
         employee.getDetails();
+        Employee employeeTwo = employee;
+        employeeTwo.firstName = "George";
+        System.out.println("\nEmployee details:");
+        employee.getDetails();
+        employeeTwo.getDetails();
         
+    }
+    
+    void main(Object[] args){
+        System.out.println("Four");
     }
     
 }
