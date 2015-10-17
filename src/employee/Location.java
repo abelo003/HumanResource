@@ -17,11 +17,13 @@ public class Location {
     public String country;
     
     public void getDetails(){
+        System.out.println("Location Information");
         System.out.println("Street Address: " + streetAddress);
         System.out.println("Postal Code: " + postalCode);
         System.out.println("City: " + city);
         System.out.println("State Province: " + stateProvince);
         System.out.println("Country: " + country);
+        System.out.println("-------------------------------------");
     }
     
 }

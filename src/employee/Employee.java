@@ -24,6 +24,7 @@ public class Employee {
     public Job job;
     
     public void getDetails(){
+        System.out.println("Employee Information");
         System.out.println("Id: " + id);
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
@@ -38,6 +39,7 @@ public class Employee {
 //        job.getDetails();
         System.out.println("Department: " + department);
         System.out.println("Job: " + job);
+        System.out.println("-------------------------------------");
     }
     
 }

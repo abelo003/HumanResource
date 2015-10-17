@@ -15,9 +15,11 @@ public class Job {
     public double maxSalary;
     
     public void getDetails(){
+        System.out.println("Job Information");
         System.out.println("Title: " + title);
         System.out.println("Min Salary: " + minSalary);
         System.out.println("Max Salary: " + maxSalary);
+        System.out.println("-------------------------------------");
     }
     
 }

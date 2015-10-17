@@ -59,7 +59,6 @@ public class TestEmployee {
         employee.job = jAdministrationManager;
         employee.department = dAdministration;
         
-        System.out.println("--------------------------------------");
         System.out.println("\nEmployee details:");
         employee.getDetails();
         Employee employeeTwo = employee;

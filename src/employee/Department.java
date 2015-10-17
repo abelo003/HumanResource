@@ -15,9 +15,13 @@ public class Department {
     public Location location;
     
     public void getDetails(){
+        System.out.println("Department Informacion");
         System.out.println("Name: " + name);
+        System.out.println("Employee Manager: " + manager);
+        System.out.println("Location Department: " + location);
+        System.out.println("-------------------------------------");
 //        manager.getDetails();
-        location.getDetails();
+//        location.getDetails();
     }
     
 }
