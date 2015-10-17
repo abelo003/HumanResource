@@ -10,4 +10,14 @@ package employee;
  */
 public class Department {
     
+    public String name;
+    public Employee manager;
+    public Location location;
+    
+    public void getDetails(){
+        System.out.println("Name: " + name);
+        manager.getDetails();
+        location.getDetails();
+    }
+    
 }

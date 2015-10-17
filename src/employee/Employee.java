@@ -21,6 +21,7 @@ public class Employee {
     public double salary;
     public Date hireDate;
     public Department department;
+    public Job job;
     
     public void getDetails(){
         System.out.println("Id: " + id);

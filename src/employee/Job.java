@@ -10,4 +10,14 @@ package employee;
  */
 public class Job {
     
+    public String title;
+    public double minSalary;
+    public double maxSalary;
+    
+    public void getDetails(){
+        System.out.println("Title: " + title);
+        System.out.println("Min Salary: " + minSalary);
+        System.out.println("Max Salary: " + maxSalary);
+    }
+    
 }
