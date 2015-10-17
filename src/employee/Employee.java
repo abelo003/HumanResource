@@ -4,6 +4,8 @@
  */
 package employee;
 
+import java.util.Date;
+
 /**
  *
  * @author Aula-X
@@ -17,7 +19,8 @@ public class Employee {
     public String email;
     public String phoneNumber;
     public double salary;
-    public String hireDate;
+    public Date hireDate;
+    public Department department;
     
     public void getDetails(){
         System.out.println("Id: " + id);
