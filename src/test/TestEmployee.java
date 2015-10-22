@@ -4,7 +4,6 @@
  */
 package test;
 
-import com.sun.xml.internal.bind.v2.model.core.Adapter;
 import employee.Department;
 import employee.Employee;
 import employee.Job;
