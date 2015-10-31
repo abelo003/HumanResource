@@ -50,14 +50,17 @@ public class Other {
 //        j = (3 * ((2 + 4) + 5));//33
 //        System.out.println("i: " + i + " j: " + j);
         
-        System.out.println(4 * 7 / 7 + 9 + 36 / 9 * 2 + 10 ); //31
-        System.out.println(33 / 11 * 9 - 2 - 5 + 7 * 4 / 2);//35
-        System.out.println(((3 * 2) * (5 + 9 - 6) / 8 - 7 - 6 + 27 / 3) * 15);
-        //(6 * 8 / 8 - 7 - 6 + 9) * 15
-        //30
-        System.out.println((27 * 9 + 5 - 6 + 40) / 8 - 5 + 9 / 3 + 15 / 15 - 1);
+//        System.out.println(4 * 7 / 7 + 9 + 36 / 9 * 2 + 10 ); //31
+//        System.out.println(33 / 11 * 9 - 2 - 5 + 7 * 4 / 2);//35
+//        System.out.println(((3 * 2) * (5 + 9 - 6) / 8 - 7 - 6 + 27 / 3) * 15);
+//        //(6 * 8 / 8 - 7 - 6 + 9) * 15
+//        //30
+//        System.out.println((27 * 9 + 5 - 6 + 40) / 8 - 5 + 9 / 3 + 15 / 15 - 1);
         //282/8 - 5 + 3 
         //33
+        
+        String a = "004";
+        System.out.println(a.substring(1, 3));
     }
     
 }
