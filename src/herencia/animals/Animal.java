@@ -10,6 +10,8 @@ package herencia.animals;
  */
 public class Animal {
     
+    protected String hola;
+    
     void comer(){}
     
     public void ruido(){
