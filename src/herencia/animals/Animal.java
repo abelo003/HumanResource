@@ -10,6 +10,7 @@ package herencia.animals;
  */
 public class Animal {
     
+    public int valor;
     protected String hola;
     
     void comer(){}
