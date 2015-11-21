@@ -20,4 +20,8 @@ public class Perro extends Animal{
         System.out.println("Guao guao");
     }
     
+    public void propioPerro(){
+        System.out.println("Propio de perro...");
+    }
+    
 }

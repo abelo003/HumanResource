@@ -10,17 +10,26 @@ package herencia.animals;
  */
 public class TestAnimal {
     public static void main(String[] args) {
-        Animal animal = new Animal();
+//        Animal animal = new Animal();
         Animal gato;
         Animal perro;
         
         gato = new Gato();
         perro = new Perro();
         
-        gato.hola = "";
+        instanciaDe(perro);
+        instanciaDe(gato);
         
-        gato.ruido();
-        perro.ruido();
-        animal.hola = "";
+    }
+    
+    public static void instanciaDe(Animal animal){
+        if(animal instanceof Perro){
+            ((Perro)animal).propioPerro();
+        }
+        else if(animal instanceof Gato){
+            ((Gato)animal).propioGato();
+        }
+        animal.comer();
+        animal.ruido();
     }
 }

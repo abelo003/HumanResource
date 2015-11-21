@@ -24,6 +24,11 @@ public class Gato extends Animal{
     public void ruido(String a){
         System.out.println(a);
     }
+    
+    public void propioGato(){
+        System.out.println("Propio de gato");
+    }
+    
     public String a(){
         return "";
     }
